@@ -1,0 +1,25 @@
+$color: red;
+
+
+div {
+    @apply .border .bg-red .p-4 .mb-6;
+    span {
+        background-color: green;
+    }
+    @screen md {
+         @apply .w-1/2;
+    }
+
+}
+
+span {
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+

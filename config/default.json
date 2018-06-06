@@ -1,0 +1,35 @@
+{
+    "html": {
+        "sourceDir": "./src/html",
+        "targetDir": "./build",
+        "includesDir": "includes",
+        "index": "./build/*.html",
+        "root": "./build"
+    },
+    "stylus": {
+        "sourceDir": "./src/stylus",
+        "targetDir": "./src/css"
+    },
+    "css": {
+        "sourceDir": "./src/css",
+        "targetDir": "./build/css"
+    },
+    "sprite": {
+        "path": "./src/img/icons/*.png",
+        "cssName": "./src/stylus/sprites.styl",
+        "imgPath": "../img/sprites/sprite.png",
+        "retinaImgPath": "../img/sprites/sprite-2x.png",
+        "imgName": "./build/img/sprites/sprite.png",
+        "retinaImgName": "./build/img/sprites/sprite-2x.png",
+        "retinaSrcFilter": ["./src/img/icons/*-2x.png"],
+        "resultPath": "./"
+    },
+    "vendor": {
+        "sourceDir": "./src/js/vendor",
+        "targetDir": "./build/js"
+    },
+    "js": {
+        "sourceDir": "./src/js",
+        "targetDir": "./build/js"
+    }
+}
